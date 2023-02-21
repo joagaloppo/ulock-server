@@ -1,0 +1,39 @@
+{
+  "name": "ulock-server",
+  "version": "1.0.0",
+  "description": "API for uLock app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "ulock",
+    "api",
+    "server",
+    "node",
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "Joaquin Galoppo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "nanoid": "^4.0.1",
+    "sequelize": "^6.25.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
